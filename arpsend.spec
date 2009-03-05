@@ -1,8 +1,8 @@
 %define name arpsend
-%define version 1.2.1
+%define version 1.2.2
 %define release %mkrel 1
 
-Summary: Blktool is a multi-purpose tool to manage common block concepts
+Summary: Sends an Ethernet frame containing an IP ARP request or reply packet
 Name: %{name}
 Version: %{version}
 Release: %{release}
