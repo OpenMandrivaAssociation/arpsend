@@ -1,6 +1,6 @@
 %define name arpsend
 %define version 1.2.2
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: Sends an Ethernet frame containing an IP ARP request or reply packet
 Name: %{name}
@@ -10,8 +10,8 @@ Source0: http://www.net.princeton.edu/software/arpsend/%{name}-%{version}.tar.gz
 License: BSD
 Group:   System/Kernel and hardware
 Url: http://www.net.princeton.edu/software/arpsend/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libnet1.1.2-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	net-devel >= 1.1.3
 
 %description
 arpsend sends an Ethernet frame containing an IP ARP request or
