@@ -22,12 +22,12 @@ This is a diagnostic tool intended for use by network administrators.
 %setup -q
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall_std
 
 %clean
 rm -rf $RPM_BUILD_ROOT
