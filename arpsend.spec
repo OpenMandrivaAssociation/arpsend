@@ -37,3 +37,22 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/arpsend
 %{_mandir}/man8/arpsend*
 
+
+
+%changelog
+* Sun Aug 22 2010 Funda Wang <fwang@mandriva.org> 1.2.2-2mdv2011.0
++ Revision: 571831
+- use configure2_5x
+
+* Thu Jun 04 2009 Oden Eriksson <oeriksson@mandriva.com> 1.2.2-2mdv2010.0
++ Revision: 382696
+- rebuilt against libnet 1.1.3
+
+* Thu Mar 05 2009 Erwan Velu <erwan@mandriva.org> 1.2.2-1mdv2009.1
++ Revision: 348878
+- 1.2.2
+- import arpsend
+
+
+* Fri Mar 05 2008 Erwan Velu <erwan@seanodes.com> 1.2.1-1
+- initial release
