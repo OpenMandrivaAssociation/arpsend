@@ -1,6 +1,6 @@
 %define name arpsend
 %define version 1.2.2
-%define release %mkrel 2
+%define release 3
 
 Summary: Sends an Ethernet frame containing an IP ARP request or reply packet
 Name: %{name}
