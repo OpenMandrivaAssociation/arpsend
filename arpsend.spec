@@ -9,7 +9,7 @@ Release: %{release}
 Source0: http://www.net.princeton.edu/software/arpsend/%{name}-%{version}.tar.gz
 License: BSD
 Group:   System/Kernel and hardware
-Url: http://www.net.princeton.edu/software/arpsend/
+Url: https://www.net.princeton.edu/software/arpsend/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	net-devel >= 1.1.3
 
