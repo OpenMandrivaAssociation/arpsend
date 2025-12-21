@@ -11,6 +11,11 @@ License: BSD
 Group:   System/Kernel and hardware
 Url: https://www.net.princeton.edu/software/arpsend/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	net-devel >= 1.1.3
 
 %description
